@@ -44,3 +44,10 @@
   - 다양한 X-ray 데이터셋을 활용하여 이상 소견을 분류하거나 병변을 탐지하도록 학습합니다.
   - X-ray 영상은 일반적으로 간단한 구조를 갖기 때문에, 사전 학습된 모델을 Fine-tuning하여 빠르게 최적화할 수 있습니다.
 
+## 8. 최신 연구 동향 요약
+
+- **Transformer 기반 모델**: Vision Transformer(ViT)와 같은 모델이 X-ray의 전체 구조적 패턴을 학습하여 병변 탐지와 세분화에 효과적.
+- **Attention 기법**: 중요한 부위에 가중치를 두어 모델이 병변에 집중할 수 있도록 하며, 예를 들어 CheXNet에서 흉부 X-ray 폐렴 탐지에 사용.
+- **Multi-task Learning**: 여러 작업(분류, 위치 탐지)을 동시에 수행하는 방식으로, 효율성을 높이고 데이터 일반화를 개선.
+- **Generative Adversarial Networks (GANs)**: 노이즈 제거, 해상도 개선 및 데이터 증강을 통해 X-ray 영상 품질과 학습 데이터 다양성 확보.
+- **Self-supervised 및 Transfer Learning**: 레이블이 적거나 없는 데이터에서 유용한 특징을 학습하여 전이 학습(Fine-tuning)으로 성능을 강화.
