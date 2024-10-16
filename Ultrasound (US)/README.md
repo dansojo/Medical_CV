@@ -50,3 +50,6 @@
 - **Transformer 기반 모델**: 초음파 영상의 전체적 문맥 정보를 학습해 병변 분할 및 구조 분석에 효과적인 Vision Transformer 모델이 등장.
 - **Self-supervised Learning**: 라벨이 적거나 없는 초음파 영상에서 유용한 특징을 학습하여 전이 학습(Fine-tuning)으로 성능을 높임.
 - **GAN 기반 데이터 증강**: GAN을 활용해 초음파 영상의 데이터 양을 증강하여, 모델 학습을 위한 데이터 다양성을 확보.
+- 
+### 전처리 이미지 비교에 사용하는 이미지
+- Al-Dhabyani W, Gomaa M, Khaled H, Fahmy A. 유방 초음파 이미지 데이터 세트. Data in Brief. 2020년 2월;28:104863. DOI: 10.1016/j.dib.2019.104863.
