@@ -38,6 +38,7 @@ def get_data_transforms():
         ToTensorV2()
     ])
     return train_transform, val_test_transform
+```
 # 클래스 매핑
 
 class_map = {
