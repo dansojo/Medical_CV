@@ -53,6 +53,7 @@
 ### **ViT**
 - **Test Accuracy**: 68.49%
 - **정밀도 (Precision), 재현율 (Recall), F1 Score**:
+
 | Class  | Precision | Recall | F1 Score | Support |
 |--------|-----------|--------|----------|---------|
 | bkl    | 0.41      | 0.30   | 0.34     | 107     |
