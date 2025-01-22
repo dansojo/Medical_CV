@@ -39,6 +39,7 @@
 ### **EfficientNet-B1**
 - **Test Accuracy**: 79.56%
 - **정밀도 (Precision), 재현율 (Recall), F1 Score**:
+
 | Class  | Precision | Recall | F1 Score | Support |
 |--------|-----------|--------|----------|---------|
 | bkl    | 0.60      | 0.61   | 0.60     | 107     |
